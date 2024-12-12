@@ -6,13 +6,11 @@
 
 ################# UI ##########################
 import streamlit as st  # pip install streamlit
+import sklearn
 
 st.markdown("""<style>.stApp {background-image: url('https://images.unsplash.com/photo-1593190910427-b949baf80788?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D""", unsafe_allow_html=True)
 st.markdown("<h1 style='text-align: center; color: DeepPink;'>Water Quality Index</h1>", unsafe_allow_html=True)
 cola, colb, colc = st.columns(3)
-with colb:
-    st.image("C:\\Users\\Saiku\\Downloads\\Deploy Streamlit\\Children-Water-.jpg")
-    st.image("C:\\Users\\Saiku\\Downloads\\Deploy Streamlit\\subsampling-2_gettyimages-_Gill.jpeg")
 
 st.write("Predictive Model Built on Below Sample Data")
 
